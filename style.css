@@ -1,0 +1,153 @@
+/* Basic Reset and Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #004080;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Accessibility Tools */
+.AccessTools {
+  background: #eaeaea;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 14px;
+}
+
+.AccessTools span {
+  cursor: pointer;
+  margin-left: 8px; 
+}
+
+/* headbinding */
+.headbinding {
+  text-align: center;
+  padding: 20px;
+  background: #004080;
+  color: white;
+}
+
+.headbinding img {
+  width: 150px;
+  align-items: middle;
+}
+
+.headbinding h1 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+}
+
+.headbinding h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Navigation */
+nav {
+  background-color: #003060;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.menu li:hover {
+  background: #002050;
+}
+
+/* Submenu */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #004080;
+  min-width: 180px;
+  list-style: none;
+  z-index: 1000;
+}
+
+.submenu li a {
+  padding: 10px 15px;
+  display: block;
+  color: white;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* News Ticker */
+.news-ticker {
+  background: #fffae6;
+  color: #a65c00;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-top: 1px solid #e0d0a0;
+  border-bottom: 1px solid #e0d0a0;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+main h3 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+main ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+/* Footer */
+footer {
+  background-color: #003060;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
